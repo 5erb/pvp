@@ -1,8 +1,7 @@
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
-  background-color: #0d0d0d;
-  color: #fff;
+  background-image: url("fotky/paul-volkmer-qVotvbsuM_c-unsplash.jpg");
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,6 +17,7 @@ body {
 
 h1 {
   font-size: 2.5rem;
+  color:white;
   font-weight: 700;
   margin-bottom: 0.5rem;
 }
@@ -29,7 +29,12 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
-p {
+.content-box {
+  border: 4px solid #fff;
+  padding: 20px;
+  box-shadow: 4px 4px 0 #555;
+  margin-bottom: 2rem;
+  text-align: left;
   font-size: 1rem;
   color: #ddd;
   line-height: 1.6;
@@ -42,10 +47,12 @@ p {
 }
 
 a {
-  color: #00ffff;
+  color: #ffffff;
   text-decoration: none;
+  size: 34px;
 }
 
 a:hover {
   text-decoration: underline;
 }
+
